@@ -3,6 +3,9 @@
 
 The Paho Android Service is an MQTT client library written in Java for developing applications on Android.
 
+## Repository
+
+基于1.1.1版本,修改了 AlarmPingSender 中的定时机制，将 Broadcast 改为 IntentService, 解决了在系统级应用中使用时，有 Sending non-protected broadcast MqttService.pingSender.xxx 报错
 
 ## Features
 |                     |                    |   |                      |                    |
